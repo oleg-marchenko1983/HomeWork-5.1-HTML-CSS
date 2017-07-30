@@ -1,0 +1,42 @@
+.wrapper{
+ margin: 0 auto;
+ width: 620px;
+ border: 1px solid black;
+ padding: 10px 10px 10px 10px;
+}
+.header{
+	border: 1px solid black;
+	width: 620px;
+	height: 60px;
+}
+.container{
+	border: 1px solid black;
+	width: 600px;
+	height: 500px;
+	margin: 10px 0px 10px 0px;
+    padding: 10px 10px;
+}
+.sidebar{
+	border: 1px solid black;
+	width: 350px;
+	height:500px;
+	float:left;
+	margin-right: 45px;
+}
+.content{
+	border: 1px solid black;
+	width: 200px;
+	height:500px;
+	float:left;
+}
+ .clearfix:after{
+  content:"";
+  clear:both;
+  display:block;
+}
+ .footer{
+	border: 1px solid black;
+	width: 620px;
+	height: 80px;
+}
+
